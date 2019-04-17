@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#455a64"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="268dp"
+        android:layout_height="262dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="8dp"
+        android:src="@mipmap/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="367dp"
+        android:layout_marginEnd="82dp"
+        android:ems="10"
+        android:hint="@string/txt_Email"
+        android:inputType="textEmailAddress"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="449dp"
+        android:layout_marginEnd="81dp"
+        android:ems="10"
+        android:hint="@string/txt_Pass"
+        android:inputType="textPassword"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginEnd="140dp"
+        android:text="@string/btn_login_log"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="655dp"
+        android:layout_marginEnd="185dp"
+        android:text="@string/txt_View"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="652dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="49dp"
+        android:text="@string/txt_Register"
+        android:textSize="24sp" />
+
+</RelativeLayout>

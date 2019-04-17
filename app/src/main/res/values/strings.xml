@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PruebaAndroid1</string>
+    <string name="txt_Email">Ingrese Email</string>
+    <string name="txt_Pass">Ingrese Contraseña</string>
+    <string name="btn_login_log">Login</string>
+    <string name="txt_View">¿Eres Nuevo?,</string>
+    <string name="txt_Register">Registrate</string>
+
+
+
+</resources>
